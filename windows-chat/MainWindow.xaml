@@ -25,9 +25,10 @@
                 <Label Content="Epic Chat" Foreground="Gray" FontWeight="SemiBold" />
                 <StackPanel HorizontalAlignment="Right"
                             Orientation="Horizontal">
-
-                    <Button Width="20" Height="20" Content="╳"/>
-
+                    <Button Width="20" Height="20" Content="🗕" Background="Transparent" BorderThickness="0" Foreground="Gray" FontWeight="Bold" />
+                    <Button Width="20" Height="20" Content="☐" Background="Transparent" BorderThickness="0" Foreground="Gray" FontWeight="Bold" />
+                    <Button Width="20" Height="20" Content="╳" Background="Transparent" BorderThickness="0" Foreground="Gray" FontWeight="Bold" />
+                    
                 </StackPanel>
             </Grid>
         </Border>
