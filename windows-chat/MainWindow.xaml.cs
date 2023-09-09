@@ -31,5 +31,18 @@ namespace windows_chat
                 DragMove();
             }
         }
+
+        private void ButtonMinimize_Click(object sender, RoutedEventArgs e) {
+            Application.Current.MainWindow.WindowState = WindowState.Minimized;
+        }
+
+        private void WindowStateButton_Click(object sender, RoutedEventArgs e) {
+            if (Application.Current.MainWindow.WindowState != WindowState.Maximized) {
+                Application.Current.MainWindow.WindowState = WindowState.Maximized;
+            } else {
+                Application.Current.MainWindow.WindowState = WindowState.Normal;    
+            }
+
+        }
     }
 }
