@@ -12,6 +12,24 @@
         <viewmodel:MainViewModel />
     </Window.DataContext>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Border Grid.ColumnSpan="2" Background="#252525">
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="Epic Chat" Foreground="Gray" FontWeight="SemiBold" />
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
 
+                    <Button Width="20" Height="20" Content="╳"/>
+
+                </StackPanel>
+            </Grid>
+        </Border>
     </Grid>
 </Window>
