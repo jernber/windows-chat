@@ -1,5 +1,5 @@
 ﻿windows-chat
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\jb\source\repos\windows-chat\windows-chat\App.xaml
 11407045341
 
-61840166114
+4-659021563
 194726069201
 MainWindow.xaml;
 
-True
+False
 
